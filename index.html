@@ -12,26 +12,26 @@
         <form id="tomato-form">
           <div class="form-group">
             <label>Movie</label>
-            <input type="text" name="movie"></input>
+            <input id="movie-title" type="text" name="movie"></input>
           </div>
           <div class="form-group">
             <label>Year Released</label>
-            <input type="text" name="year"></input>
+            <input id="movie-year" type="text" name="year"></input>
           </div>
           <div class="form-group">
             <label>Rating</label>
-            <input type="text" name="label"></input>
+            <input id="movie-rating" type="text" name="label"></input>
           </div>
           <button type="submit" name="button">submit</button>
         </form>
       </div>
       <div class="results-div">
-        <table>
+        <table id="movie-table">
           <thead>
             <tr>
               <th>The Film</th>
               <th>The Year</th>
-              <th>The Rating</th>
+              <th id="sort-button">The Rating</th>
             </tr>
           </thead>
         </table>
