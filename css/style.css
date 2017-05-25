@@ -52,6 +52,10 @@ background-size: cover;
   background-color: white;
 }
 
+#sort-button {
+  background-color: lightgreen;
+}
+
 #sort-button:hover {
   background-color: #3a9425;
 }
