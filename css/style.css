@@ -2,35 +2,8 @@
   box-sizing: border-box;
 }
 
-.container {
-  padding: 40px;
-  overflow: auto;
-}
-
-.form-div {
-  background-color: lightgrey;
-  width: 320px;
-  min-width: 200px;
-  padding: 20px;
-  float: left;
-}
-
-.form-group {
-  display: block;
-  padding: 20px 0px;
-}
-
 label {
   display: block;
-}
-
-.results-div {
-  border: 2px solid lightgrey;
-  width: 50%;
-  min-width: 200px;
-  min-height: 370px;
-  float: left;
-  padding: 20px;
 }
 
 table {
@@ -44,4 +17,52 @@ table {
 th {
   border: 1px solid black;
   padding: 5px;
+}
+
+body {
+background: url("../img/tomato-bg.jpg") center center no-repeat fixed;
+background-size: cover;
+}
+
+.container {
+  padding: 40px;
+  overflow: auto;
+}
+
+.form-div {
+  background-color: #20bd50;
+  width: 50%;
+  min-width: 200px;
+  padding: 20px;
+  float: left;
+}
+
+.form-group {
+  display: block;
+  padding: 20px 0px;
+}
+
+.results-div {
+  border: 2px solid lightgrey;
+  width: 50%;
+  min-width: 200px;
+  min-height: 370px;
+  float: left;
+  padding: 20px;
+  background-color: white;
+}
+
+#sort-button:hover {
+  background-color: #3a9425;
+}
+
+#zombie-button:hover {
+  background-color: #3a9425;
+}
+
+#zombie-div {
+  height: 100vh;
+  background: url("../img/zombie.png") center center fixed;
+  background-size: cover;
+  display: none;
 }

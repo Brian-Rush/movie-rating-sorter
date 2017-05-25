@@ -36,13 +36,21 @@ $(document).ready(function(){
     library.movieArray.sort(function(a, b){
       return a.rating - b.rating
     });
+
     $("tbody").empty();
 
-      for (var i = 0; i < library.movieArray.length; i++) {
-        var x = library.movieArray[i];
-        $("#movie-table").append("<tbody><tr><td>" + x.mtitle + "</td> <td>" + x.year + "</td> <td>" + x.rating + "</td></tr></tbody>")
-
-
+    for (var i = 0; i < library.movieArray.length; i++) {
+      var x = library.movieArray[i];
+      $("#movie-table").append("<tbody><tr><td>" + x.mtitle + "</td> <td>" + x.year + "</td> <td>" + x.rating + "</td></tr></tbody>")
     }
+  });
+
+  $("#zombie-button").click(function(){
+    alert("yo");
+    $("#zombie-div").show();
+  });
+
+  $("#zombie-div").click(function(){
+    $("#zombie-div").hide();
   });
 });
