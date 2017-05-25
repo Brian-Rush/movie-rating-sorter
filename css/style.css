@@ -9,7 +9,8 @@
 
 .form-div {
   background-color: lightgrey;
-  width: 50%;
+  width: 320px;
+  min-width: 200px;
   padding: 20px;
   float: left;
 }
@@ -26,8 +27,9 @@ label {
 .results-div {
   border: 2px solid lightgrey;
   width: 50%;
+  min-width: 200px;
   min-height: 370px;
-  float: right;
+  float: left;
   padding: 20px;
 }
 
