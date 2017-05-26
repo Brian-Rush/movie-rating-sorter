@@ -1,9 +1,35 @@
 * {
   box-sizing: border-box;
+  font-family: sans-serif;;
 }
 
-label {
-  display: block;
+
+
+input {
+  width: 100%;
+  height: 50px;
+  margin-right: 20px;
+  padding: 0 15px;
+  border: 1px solid gray;
+  /*border-radius: 5px;*/
+  box-shadow: inset -2px -2px 2px 2px gray, 0 0 12px 2px black;
+  font-size: 1.7em;
+}
+
+input:focus {
+
+}
+
+button {
+  height: 50px;
+  width: 50%;
+  font-size: 1.7em;
+  color: gray;
+  box-shadow: inset -2px -2px 2px 2px gray, inset 2px 2px 2px 2px white;
+}
+
+.results-div {
+  display: none;
 }
 
 table {
@@ -16,12 +42,16 @@ table {
 
 th {
   border: 1px solid black;
-  padding: 5px;
+  padding: 5px 15px;
+}
+
+td {
+  padding: 5px 15px;
 }
 
 body {
-background: url("../img/tomato-bg.jpg") center center no-repeat fixed;
-background-size: cover;
+/*background: url("../img/tomato-bg.jpg") center center no-repeat fixed;
+background-size: cover;*/
 }
 
 .container {
@@ -58,15 +88,16 @@ background-size: cover;
 
 #sort-button:hover {
   background-color: #3a9425;
+  cursor:pointer;
 }
 
 #zombie-button:hover {
   background-color: #3a9425;
 }
 
-#zombie-div {
+/*#zombie-div {
   height: 100vh;
   background: url("../img/zombie.png") center center fixed;
   background-size: cover;
   display: none;
-}
+}*/

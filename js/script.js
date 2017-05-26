@@ -18,6 +18,8 @@ $(document).ready(function(){
   $("#tomato-form").submit(function(event){
     event.preventDefault();
 
+    $(".results-div").show();
+
     var inputtedTitle = $("input#movie-title").val();
     var inputtedYear = $("input#movie-year").val();
     var inputtedRating = parseInt($("input#movie-rating").val());
